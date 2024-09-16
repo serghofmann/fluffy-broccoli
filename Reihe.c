@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
-//WIDM hat ein Kommentar eingefügt und anschließen geaendert
+//Kommentar aus Visual Studio Code ///SEGH
+
 int CalculateSchleife(int H)
 {
     float addedn = 0;
@@ -12,7 +13,7 @@ int CalculateSchleife(int H)
     }
     return i;
 }
-// Neu comment 07.09
+
 int main ()
 {
     int n;
@@ -21,5 +22,5 @@ int main ()
     scanf("%i", &n);
     n = CalculateSchleife(n);
     printf("Die Summe ist = %i",n);
-    return EXIT_SUCCESS;
+    return 0;
 }
